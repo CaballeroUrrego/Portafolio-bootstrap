@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Sebastián Urrego</title>
+<link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS: se utiliza para estilos y diseño responsivo -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />    <script src="https://kit.fontawesome.com/33fd3a8e5f.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/Sebastian.jpeg" />
+    <!-- Icono de la pestaña del navegador -->
+  </head>
+  <body>
+    <!-- Navbar: Barra de navegación principal con enlaces a las secciones de la página -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <!-- Nombre del portafolio con enlace -->
+        <a
+          class="navbar-brand"
+          href="https://caballerourrego.github.io/El-portafolio/"
+          >-Sebastián Urrego portafolio</a
+        >
+        <!-- Botón de navegación para dispositivos móviles -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Experiencia👨‍💻</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Cursos🚀</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobremi">Sobre mí 🧐</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section: Sección de bienvenida con un encabezado y un botón de contacto -->
+    <header class="text-center p-5 bg-light">
+      <h1>¡Bienvenidos! Mi nombre es Sebastián Urrego</h1>
+      <p class="lead">
+        Estudiante de desarrollo de software en formación. Técnico en sistemas
+        de Medellín, Colombia.
+      </p>
+      <a href="https://wa.link/rmqdcd" target="_blank" class="btn btn-success"
+        ><i class="bi bi-whatsapp"></i> Contacto por WhatsApp</a
+      >
+    </header>
+
+    <!-- Sobre mí Section: Información sobre el autor con enlaces a LinkedIn y GitHub -->
+    <section id="sobremi" class="container py-5">
+      <div class="text-center">
+        <img
+          src="/img/Sebas.webp"
+          class="rounded-circle mb-3"
+          alt="Imagen de perfil"
+          width="150"
+        />
+        <!-- Imagen circular de perfil -->
+        <p>
+          Me gusta la tecnología y el desarrollo de software, con experiencia en
+          sistemas de seguridad informática y atención al cliente.
+        </p>
+        <a
+          href="https://www.linkedin.com/in/sebastian-urrego-cardenas-5a205a1a5/"
+          class="btn btn-primary me-2"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/CaballeroUrrego"
+          class="btn btn-dark"
+          target="_blank"
+          >GitHub</a
+        >
+      </div>
+    </section>
+
+    <!-- Experiencia Section: Tarjetas de experiencia profesional con botones para ver detalles en modales -->
+    <section id="experiencia" class="container py-5">
+      <h2 class="text-center mb-4">Experiencia Profesional</h2>
+      <div class="row">
+        <!-- Tarjeta de experiencia para SIMAC.SAS -->
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">SIMAC.SAS</h5>
+              <p class="card-text">
+                Responsable de monitorear el sistema de seguridad de información
+                y comunicaciones.
+              </p>
+              <button
+                class="btn btn-outline-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalSIMAC"
+              >
+                Ver más
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Tarjeta de experiencia para ALGAR-TECH -->
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">ALGAR-TECH</h5>
+              <p class="card-text">
+                Atención al cliente especializado, análisis de soluciones para
+                grandes empresas.
+              </p>
+              <button
+                class="btn btn-outline-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalAlgar"
+              >
+                Ver más
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Tarjeta de experiencia para IBM -->
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">IBM</h5>
+              <p class="card-text">
+                tras ser escalado desde Algar-Tech, tuve la oportunidad de
+                colaborar en proyectos clave
+              </p>
+              <button
+                class="btn btn-outline-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalIBM"
+              >
+                Ver más
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Tarjeta de experiencia para Marketing Personal -->
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Marketing Personal</h5>
+              <p class="card-text">
+                Administración de credenciales y especificaciones para nuevos
+                colaboradores.
+              </p>
+              <button
+                class="btn btn-outline-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalMarketingPersonal"
+              >
+                Ver más
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modales: Ventanas emergentes con más información de cada experiencia laboral -->
+    <div
+      class="modal fade"
+      id="modalSIMAC"
+      tabindex="-1"
+      aria-labelledby="modalSIMACLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalSIMACLabel">SIMAC.SAS</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Responsabilidad principal: Monitorear el sistema de seguridad de
+            información y comunicaciones.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="modalAlgar"
+      tabindex="-1"
+      aria-labelledby="modalAlgarLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalAlgarLabel">ALGAR-TECH</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Atención al cliente especializado y análisis de soluciones para
+            empresas.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="modalIBM"
+      tabindex="-1"
+      aria-labelledby="modalIBMLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalIBMLabel">IBM</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Desempeñándome como puente de comunicación técnica entre el cliente
+            y el equipo de desarrollo. Mi enfoque en análisis de sistemas y
+            resolución de problemas permitió optimizar procesos internos y
+            mejorar la experiencia del cliente. Desarrollé soluciones
+            personalizadas para automatizar tareas repetitivas y simplificar la
+            integración de sistemas, lo cual aumentó la eficiencia en la gestión
+            de proyectos y el rendimiento de las aplicaciones en producción.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="modalMarketingPersonal"
+      tabindex="-1"
+      aria-labelledby="modalMarketingPersonalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalMarketingPersonalLabel">
+              Marketing Personal
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Administré estructuras de datos en la mesa de servicio, gestionando
+            inventarios de credenciales para nuevos colaboradores.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cursos Section: Listado de cursos y proyectos relevantes -->
+    <section id="proyectos" class="container py-5">
+      <h2 class="text-center mb-4">Cursos</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          Técnico en seguridad informática (Análisis de riesgos)
+        </li>
+        <li class="list-group-item">
+          Sena C.R.N.R. La Salada La Estrella Técnica Sistemas
+        </li>
+        <li class="list-group-item">
+         Python esencial
+        </li>
+        <li class="list-group-item">Bancarización y ciberseguridad</li>
+        <li class="list-group-item">Metodologías Ágiles-Scrum(2023)</li>
+        <li class="list-group-item">
+          Desarrollo de habilidades blandas (2023)
+        </li>
+        <li class="list-group-item">
+          Email marketing y mensajería móvil e instantánea
+        </li>
+        <li class="list-group-item">
+          Herramientas de gestión de relacionamiento con el cliente
+        </li>
+        <li class="list-group-item">
+          Marketing en redes sociales y analítica web
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer: Información de contacto -->
+    <footer class="bg-dark text-light text-center py-3">
+
+      <a href="https://facebook.com" target="_blank" class="text-light mx-2"><i class="fa-brands fa-facebook"></i></i></a>
+      <a href="https://twitter.com" target="_blank" class="text-light mx-2"><i class="fa-brands fa-github"></i></a>
+      <a href="https://linkedin.com" target="_blank" class="text-light mx-2"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://instagram.com" target="_blank" class="text-light mx-2"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://instagram.com" target="_blank" class="text-light mx-2"><i class="fa-brands fa-linkedin"></i></a>
+      <p>&copy; 2024 Sebastián Urrego</p>
+    </footer>
+
+    <!-- Bootstrap JS: incluye dependencias necesarias para el funcionamiento de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
